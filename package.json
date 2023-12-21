@@ -4,7 +4,9 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "nodemon  src/index.ts"
+    "start": "ts-node src/index.ts",
+    "dev": "nodemon  src/index.ts"
+
   },
   "dependencies": {
     "apollo-datasource-rest": "^0.9.4",
